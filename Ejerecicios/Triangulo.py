@@ -1,3 +1,6 @@
+'''Crear una función que recibe la base y altura de un triángulo.
+  La función debe calcular el área.'''
+
 def AreaT():
 	a = input("Ingrese del triangulo la base y la altura separado por comas: ")
 	a = a.split(",")
