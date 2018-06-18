@@ -4,7 +4,7 @@
  Salida: La extensión es: exe.'''
 
 def llave(i):
-	print(i.split(".")[1])
+	print((i.split(".")[1]) + str(": es la extencion de tu archivo" ))
 
 def main():
 	x = str(input("Introducir archivo: "))
