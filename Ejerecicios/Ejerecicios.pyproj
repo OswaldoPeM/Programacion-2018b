@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c11ed51-3dc1-4008-9aba-390fd8da9a28</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Triangulo.py</StartupFile>
+    <StartupFile>Extencion.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

@@ -3,12 +3,12 @@
  Ejemplo de entrada: hello.exe.
  Salida: La extensión es: exe.'''
 
-def llave(i):
-	print((i.split(".")[1]) + str(": es la extencion de tu archivo" ))
+def llave():
+    i = str(input("Introducir archivo: "))
+    print("\n" + str(i.split(".")[1]) + str(": es la extencion de tu archivo \n" ))
 
 def main():
-	x = str(input("Introducir archivo: "))
-	llave(x)
+	llave()
 
 if __name__ == "__main__":
 	main()
