@@ -30,9 +30,11 @@ def volumen():
     r = float(input("Introducir radio de la esfera en centimetros: "))
     v = (4/3) * 3.1416 * ((r)**3) 
     print("El volumen de tu esfera es de " + str(v) + str("centimetros"))
-
+def version():
+	import sys
+	print(sys.version)
 def main():
-	x = int(input("Introducir 1 para inerpretar numero graficamente mediante asteriscos. \nIntroducir 2 para saber cuantos dias hay entre dos fechas. \nIntroducir 3 para saber la extencion de un archivo. \nIntroducir 4 para saber el area de un triangulo. \nIntroducir 5 para saber el volumen de una esfera."))
+	x = int(input("Introducir 1 para inerpretar numero graficamente mediante asteriscos. \nIntroducir 2 para saber cuantos dias hay entre dos fechas. \nIntroducir 3 para saber la extencion de un archivo. \nIntroducir 4 para saber el area de un triangulo. \nIntroducir 5 para saber el volumen de una esfera. \nIntroducir 6 para imprimir la version de python."))
 	if (x==1):
 		Graphix()
 	if (x==2):
@@ -43,6 +45,8 @@ def main():
 		AreaT()
 	if(x==5):
 		volumen()
+	if(x==6):
+		version()
 	else:
 		break
 
