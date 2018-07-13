@@ -1,0 +1,4 @@
+Hola, mi nombre es Oswaldo Perez Macias:
+Te saludo desde mi primer archivo de texto.
+
+Saludos!
