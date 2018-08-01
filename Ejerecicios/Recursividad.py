@@ -43,7 +43,7 @@ def pascal(x):
 def main():
     T=True
     while T:
-        Q = int(input('\nPara saber el resultado de la factorial de un numero presiona "1".\nPara saber los pasos de la serie fibonacci hasta un numero n presiona "2".\nPara multiplicar un numero por otro presione "3".\nPara imprimir un Triangulo de Pascal presione "4".\nPara saber el numero total de caminos que habra para llegar de una punta de una cuadricula a la otra punta presione "5"\nPara salir del programa precione "6":\n'))
+        Q = int(input('\nPara saber el resultado de la factorial de un numero presiona "1".\nPara saber los pasos de la serie fibonacci hasta un numero n presiona "2".\nPara multiplicar un numero por otro presione "3".\nPara imprimir un Triangulo de Pascal presione "4".\nPara saber el numero total de caminos que habra para llegar de una punta de una cuadricula a la otra punta presione "5"\nPara salir del programa presione "6":\n'))
         if Q == 1:
             x = int(input('\nIntrodusca el numero: '))
             print('\nEl resultado es',factorial(x))
