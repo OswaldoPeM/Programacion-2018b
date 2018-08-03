@@ -61,9 +61,10 @@ def main():
             for i in range(len(z)):
                 print(z[i])
         if Q == 5:
-            x = int(input('\nIntrodusca el primer numero de largo y ancho de la cuadricula: '))
+            x = int(input('\nIntrodusca el primer numero del cuadrado(El numero mas alto del cuadrado): '))
+            y = int(input('Introdusca el numero del ancho: '))
             z =(pascal(x * 2-1))
-            print('\nEl resultado es',z[x*2-2][x-1],'caminos')
+            print('\nEl resultado es',z[x*2-2][(y-1)],'caminos')
         if Q == 6 or Q == '':
             T=False
     print('\n\n\nAdios')
