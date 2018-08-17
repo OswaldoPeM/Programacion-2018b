@@ -111,10 +111,10 @@ def addAlumno(Alumnos):
         a = alumno(x,z,y)
         Alumnos.append(a)
         estudiantes.close
+        print('Alumno agregado')
         d = input(str('Desde agregar otro alumno? y/n : '))
         if d == 'n':
             c = False
-    print('')
     return Alumnos
 
 def main():
