@@ -1,6 +1,0 @@
-1:elefante
-2:cactus
-3:bombero
-4:lentes
-5:vaso
-6:moneda
